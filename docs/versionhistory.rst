@@ -4,6 +4,11 @@ Version history
 This library adheres to
 `Semantic Versioning 2.0 <https://semver.org/#semantic-versioning-200>`_.
 
+**UNRELEASED**
+
+- Fixed protocol check incorrectly rejecting inherited classmethods and staticmethods
+  (`#539 <https://github.com/agronholm/typeguard/issues/539>`_)
+
 **4.4.4** (2025-06-18)
 
 - Fixed ``IndexError`` when using ``@typechecked`` on more than one function with the
